@@ -1,0 +1,5 @@
+// I always forget socket.io has built in debugging
+
+let debug = true;
+
+debug ? localStorage.setItem('debug', 'socket.io-client:socket') : localStorage.removeItem('debug');
